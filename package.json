@@ -1,7 +1,7 @@
 {
   "name": "musthafa-vakkayil-portfolio",
   "version": "0.1.0",
-  "homepage": "https://musthafa-vakkayil.github.io/portfolio_app",
+  "homepage": "https://musthafa-vakkayil.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
