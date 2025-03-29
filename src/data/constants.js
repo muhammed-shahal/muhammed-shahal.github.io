@@ -1,15 +1,14 @@
 export const Bio = {
   name: "Musthafa Vakkayil",
   roles: [
-    "Full Stack Developer",
-    "Programmer",
+    "Backend Developer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/musthafa-vakkayil",
   resume:
     "https://drive.google.com/file/d/1N_wIZYGOHej3GDfMOWM7t8lDkEh7I5eI/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+  linkedin: "https://www.linkedin.com/in/muhammedmusthafashahalv/",
 };
 
 export const skills = [
@@ -119,7 +118,7 @@ export const experiences = [
     role: "Software Engineer l",
     company: "Impelsys India Pvt. Ltd.",
     date: "Jan 2024 - Present",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    desc: "Developed and optimized backend APIs in Golang and TypeScript, promptly resolving bugs and vulnerabilities to enhance system stability and user experience. Maintained over 80% unit test coverage, ensuring code reliability and minimizing production defects. Successfully migrated AWS service deployments from SDK to CDK, improving infrastructure management and deployment efficiency.",
     skills: [
       "Go",
       "Python",
@@ -130,7 +129,7 @@ export const experiences = [
       "Step Functions",
       "MySql"
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
@@ -138,7 +137,7 @@ export const experiences = [
     role: "Software Engineer Trainee",
     company: "Impelsys India Pvt. Ltd.",
     date: "Nov 2022 - Dec 2024",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    desc: "Implemented user authorization and authentication using JWT, strengthening application security and access control. Efficiently resolved production bugs, ensuring a seamless client experience and minimizing downtime.",
     skills: [
       "Golang",
       "ReactJS",
@@ -173,77 +172,54 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
-  },
-  {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "Event Scheduler",
+    date: "Jan 2025",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "An event scheduling system built with Golang that automatically handles both one-time and recurring events, ensuring reliable and timely execution without manual intervention",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://media-hosting.imagekit.io/95b9c1ac428b430f/Screenshot%20(1324).png?Expires=1837874975&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YpPiv0uTnb8PP-f5x4gkyknrDT~4wknCKXnh0C6947kcJ6od3QUSLrgFC-dqQ0ihGsrtODAme2CJDR0S20gpyYJVwlP5rg1~npldv3HuBgNZF5RTBtF~mAktFmBnupOAVmPH7qnmu-22xDto0VMuTRhgejrgPLsaw4Fm8cyBXkQeQq5WVRnjaIlrH50rWnaPdzqJE0YuKWddMlvgEzpIff0s-NkuQ7pmqx5DH1JmKPkVl3xWh~6kaLbJHqWngV3h~rqHlA6xlt6S0Gc8Eq~HCXL2geylyqaSs7rxwiLai5SLZT4tSnwBPcn57bjjt5xS2LS1Y0Uhqvfsl7E-Mlttmg__",
+    tags: ["Golang", "Gin", "Redis", "PostgreSQL", "Docker", "Asynq", "CI/CD"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/musthafa-vakkayil/event_scheduler_v2",
+    webapp: "https://github.com/musthafa-vakkayil/event_scheduler_v2",
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "Planning Poker",
+    date: "Aug 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "A tool with socket programming designed for Agile sprint planning, enabling real-time collaboration and efficient task management.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://media-hosting.imagekit.io/02bda1213db14cbe/project3.png?Expires=1837875547&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=MhfP6l4gVSMWY7S202r98tIFVAC5LBIuZ92cAki2FbOSecro~QllZMOcybZB1JiOJlQvO6jQmzrG9d2U-BBJ1jVdUyfJqJNrd5XPa15QPwnJ6ogE-Or6RRSokqPjSULJ6OvAcU7ubGjgaQrv5jI8EV6-6lFHC7YSsF5qavm197BQoKO7Q0kd1opZ4jhUw-QVK-CLR4bW~Nl5cQXqL-WWD7CXT6LiE2bIgNpz8ircxnRHnJG2EIyzIs0wETE-u4F-GYDTZ1pMeSgDyBVzyTs13HGkTqHZdZjRQhepSBJJkdN1afxXbUc8bdj4gPT4caYQtqLlKet4EwfO0TT7i94Dzg__",
     tags: [
       "React Js",
-      "MongoDb",
       "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Sokcet Progrmming",
+      "Expres Js"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
-  }
+    github: "",
+    webapp: "http://65.0.110.61/",
+  },
+  {
+    id: 3,
+    title: "Travel Assistant",
+    date: "Jun 2021",
+    description:
+      "A mobile application designed to help users plan trips, book hotels, and discover nearby amenities, enhancing travel convenience and experience.",
+    image:
+      "https://media-hosting.imagekit.io/893541ebb9f64e5a/project2.png?Expires=1837875437&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=fa~C~1Tew9-4cSyQyzs1GslDV0Yjv3xRaPvErjCck-w3wHW0Eo4Qun8m2udo87eNzjHHH1xbl3yU7AmRK-9CAACfXQDCTqgGZE3scxltutPbWF2rQTZZEWMErgjTumr4fhSsG68jRHOHCHkQlLdfeTlkAx8j~5AU-GfqX0iIKPswGcWjgPHDnAEp0gIsPl2KePFnds6TVDp0S8jeic71gWrYn5gDyc6Xnch4IXtFg8C60giS-NRWkxmJA7cIsUJbpI56Nh6iW8-qWRc4WSVwcip8zVWa2TXEWqQBMgRitZdzorRxCH43kZUemokv4cbcFFeXdeEV5fUGWXl6vZq3aA__",
+    tags: [
+      "Flutter",
+      "Dart",
+      "AI chatbot",
+      "Tensorflow"
+    ],
+    category: "android app",
+    github: "https://github.com/musthafa-vakkayil/easy_go",
+    webapp: "https://github.com/musthafa-vakkayil/easy_go",
+  },
 ];
 
 export const TimeLineData = [

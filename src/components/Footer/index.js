@@ -96,7 +96,6 @@ function Footer() {
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Musthafa Vakkayil. All rights reserved.

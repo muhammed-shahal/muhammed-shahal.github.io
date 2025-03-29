@@ -215,23 +215,3 @@ export const MobileNavLogo = styled(LinkR)`
     padding: 0 0px;
   }
 `;
-
-export const LogoButton = styled.button`
-  width: 80%;    
-  padding: 0 6px;
-  display: flex;
-  align-items: center;
-  color: ${({ theme }) => theme.text_primary};
-  margin-bottom: 0;
-  cursor: pointer;
-  background: none;
-  border: none;
-  font-size: inherit;
-  padding: 0;         /* Remove button padding */
-  outline: none;       /* Remove outline */
-  box-shadow: none;    /* Remove any shadow */
-  
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
-`;
