@@ -5,10 +5,10 @@ export const Bio = {
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/musthafa-vakkayil",
+  github: "https://github.com/muhammed-shahal",
   resume:
-    "https://drive.google.com/file/d/1N_wIZYGOHej3GDfMOWM7t8lDkEh7I5eI/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/muhammedmusthafashahalv/",
+    "https://drive.google.com/file/d/1WqNwEXCJbfMNi8xBxdpke0dY_FFyDAzZ/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/musthafashahal/",
 };
 
 export const skills = [
@@ -171,8 +171,8 @@ export const projects = [
       "https://i.postimg.cc/9F0SBkDW/Screenshot-2025-08-31-052541.png",
     tags: ["Golang", "Gin", "Redis", "PostgreSQL", "Docker", "Asynq", "CI/CD"],
     category: "web app",
-    github: "https://github.com/musthafa-vakkayil/event_scheduler_v2",
-    webapp: "https://github.com/musthafa-vakkayil/event_scheduler_v2",
+    github: "https://github.com/muhammed-shahal/event_scheduler_v2",
+    webapp: "https://github.com/muhammed-shahal/event_scheduler_v2",
   },
   {
     id: 1,
