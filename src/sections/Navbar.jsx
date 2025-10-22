@@ -24,7 +24,7 @@ function Navigation() {
       <li className="nav-li">
         <a
           href={PERSONAL_INFO.github}
-          className="nav-link flex items-center gap-2"
+          className="nav-link"
           target="_blank"
           rel="noopener noreferrer"
         >

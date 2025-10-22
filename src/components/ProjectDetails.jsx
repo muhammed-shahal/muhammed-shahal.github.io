@@ -18,7 +18,7 @@ const ProjectDetails = ({
       <motion.div
         className="relative max-w-2xl border shadow-sm
      rounded-2xl bg-linear-to-l from-midnight to-navy
-     border-white/10"
+     border-white/10 max-h-[90vh] overflow-y-auto"
      initial= {{opacity: 0, scale: 0.5}}
      animate={{opacity: 1, scale: 1}}
       >
@@ -51,6 +51,7 @@ const ProjectDetails = ({
               className="inline-flex items-center gap-1 
             font-medium hover-animation cursor-pointer"
               href={href}
+              target="_blank"
             >
               View project <img src="assets/arrow-up.svg" className="size-4" />
             </a>

@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
 };
 
 export const TEXT_LITERALS = {
-  intrest: "CODE IS CRAFT",
+  intrest: "My Interests",
   title: "Let’s Talk",
   message: "I’m always open to exciting backend challenges—especially where Go or Python can make a real impact. If you’re working on something ambitious or looking to strengthen your team, I’d love to hear from you"
 };
